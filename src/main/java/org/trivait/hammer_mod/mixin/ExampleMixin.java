@@ -1,4 +1,4 @@
-package org.trivait.mixin;
+package org.trivait.hammer_mod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

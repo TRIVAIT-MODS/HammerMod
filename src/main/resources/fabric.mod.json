@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "hammermod",
+	"id": "hammer_mod",
 	"version": "${version}",
 	"name": "HammerMod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/hammermod/icon.png",
+	"icon": "assets/hammer_mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.trivait.HammerMod"
+			"org.trivait.hammer_mod.HammerMod"
 		],
 		"fabric-datagen": [
-			"org.trivait.HammerModDataGenerator"
+			"org.trivait.hammer_mod.HammerModDataGenerator"
 		]
 	},
 	"mixins": [
-		"hammermod.mixins.json"
+		"hammer_mod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.13",
