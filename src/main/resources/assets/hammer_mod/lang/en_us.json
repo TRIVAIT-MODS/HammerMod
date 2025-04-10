@@ -1,0 +1,11 @@
+{
+  "item.hammer_mod.iron_stick": "Iron stick",
+  "item.hammer_mod.wood_hammer": "Wood hammer",
+  "item.hammer_mod.stone_hammer": "Stone hammer",
+  "item.hammer_mod.iron_hammer": "Iron hammer",
+  "item.hammer_mod.gold_hammer": "Gold hammer",
+  "item.hammer_mod.diamond_hammer": "Diamond hammer",
+  "item.hammer_mod.netherite_hammer": "Netherite hammer",
+
+  "itemgroup.hammer_mod.hammer_mod": "Hammer mod"
+}

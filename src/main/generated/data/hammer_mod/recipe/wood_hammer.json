@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "hammer_mod:iron_stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "hammer_mod:wood_hammer"
+  }
+}

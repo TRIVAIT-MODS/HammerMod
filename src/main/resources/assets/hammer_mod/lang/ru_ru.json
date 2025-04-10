@@ -1,0 +1,11 @@
+{
+  "item.hammer_mod.iron_stick": "Железная палка",
+  "item.hammer_mod.wood_hammer": "Деревянный молот",
+  "item.hammer_mod.stone_hammer": "Каменный молот",
+  "item.hammer_mod.iron_hammer": "Железный молот",
+  "item.hammer_mod.gold_hammer": "Золотой молот",
+  "item.hammer_mod.diamond_hammer": "Алмазный молот",
+  "item.hammer_mod.netherite_hammer": "Незеритовый молот",
+
+  "itemgroup.hammer_mod.hammer_mod": "Hammer mod"
+}

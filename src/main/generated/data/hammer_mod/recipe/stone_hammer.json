@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "S": {
+      "item": "hammer_mod:iron_stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MMM",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "hammer_mod:stone_hammer"
+  }
+}
