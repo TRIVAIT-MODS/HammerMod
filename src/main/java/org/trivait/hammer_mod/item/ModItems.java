@@ -26,7 +26,7 @@ public class ModItems {
     public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer",
             new HammerItem(ToolMaterial.DIAMOND, 1, -1f, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "diamond_hammer")))));
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer",
-            new HammerItem(ToolMaterial.NETHERITE,1, -1f,  new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "netherite_hammer")))));
+            new HammerItem(ToolMaterial.NETHERITE,1, -1f,  new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "netherite_hammer"))).fireproof()));
 
 
     private static Item registerItem(String id, Item item) {
