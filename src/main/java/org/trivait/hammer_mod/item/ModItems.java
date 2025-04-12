@@ -29,7 +29,7 @@ public class ModItems {
                     .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.DIAMOND, 1, -1f))));
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer",
             new HammerItem(ToolMaterials.NETHERITE, new Item.Settings()
-                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.NETHERITE, 1, -1f))));
+                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.NETHERITE, 1, -1f)).fireproof()));
 
 
     private static Item registerItem(String id, Item item) {
