@@ -26,8 +26,8 @@
 		"hammer_mod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.13",
-		"minecraft": "~1.21",
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
