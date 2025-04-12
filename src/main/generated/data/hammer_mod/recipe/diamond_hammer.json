@@ -1,13 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
-    "M": {
-      "item": "minecraft:diamond"
-    },
-    "S": {
-      "item": "hammer_mod:iron_stick"
-    }
+    "M": "minecraft:diamond",
+    "S": "hammer_mod:iron_stick"
   },
   "pattern": [
     "MMM",

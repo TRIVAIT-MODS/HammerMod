@@ -4,6 +4,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.util.Identifier;
 import org.trivait.hammer_mod.HammerMod;
@@ -11,25 +13,20 @@ import org.trivait.hammer_mod.item.custom.HammerItem;
 
 public class ModItems {
 
-    public static final Item IRON_STICK = registerItem("iron_stick", new Item(new Item.Settings()));
+    public static final Item IRON_STICK = registerItem("iron_stick", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "iron_stick")))));
     public static final Item WOOD_HAMMER = registerItem("wood_hammer",
-            new HammerItem(ToolMaterials.WOOD, new Item.Settings()
-                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.WOOD, 1, -1f))));
+            new HammerItem(ToolMaterial.WOOD,1, -1f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "wood_hammer")))));
     public static final Item STONE_HAMMER = registerItem("stone_hammer",
-            new HammerItem(ToolMaterials.STONE, new Item.Settings()
-                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.STONE, 1, -1f))));
+            new HammerItem(ToolMaterial.STONE, 1, -1f, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "stone_hammer")))));
     public static final Item IRON_HAMMER = registerItem("iron_hammer",
-            new HammerItem(ToolMaterials.IRON, new Item.Settings()
-                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.IRON, 1, -1f))));
+            new HammerItem(ToolMaterial.IRON,1, -1f,  new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "iron_hammer")))));
     public static final Item GOLD_HAMMER = registerItem("gold_hammer",
-            new HammerItem(ToolMaterials.GOLD, new Item.Settings()
-                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.GOLD, 1, -1f))));
+            new HammerItem(ToolMaterial.GOLD, 1, -1f, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "gold_hammer")))));
     public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer",
-            new HammerItem(ToolMaterials.DIAMOND, new Item.Settings()
-                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.DIAMOND, 1, -1f))));
+            new HammerItem(ToolMaterial.DIAMOND, 1, -1f, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "diamond_hammer")))));
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer",
-            new HammerItem(ToolMaterials.NETHERITE, new Item.Settings()
-                    .attributeModifiers(HammerItem.createAttributeModifiers(ToolMaterials.NETHERITE, 1, -1f))));
+            new HammerItem(ToolMaterial.NETHERITE,1, -1f,  new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(HammerMod.MOD_ID, "netherite_hammer")))));
 
 
     private static Item registerItem(String id, Item item) {

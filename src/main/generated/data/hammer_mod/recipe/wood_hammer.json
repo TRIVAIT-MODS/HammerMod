@@ -1,13 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
-    "M": {
-      "tag": "minecraft:planks"
-    },
-    "S": {
-      "item": "hammer_mod:iron_stick"
-    }
+    "M": "#minecraft:planks",
+    "S": "hammer_mod:iron_stick"
   },
   "pattern": [
     "MMM",

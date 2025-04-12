@@ -1,13 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
-    "M": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "hammer_mod:iron_stick"
-    }
+    "M": "minecraft:iron_ingot",
+    "S": "hammer_mod:iron_stick"
   },
   "pattern": [
     "MMM",

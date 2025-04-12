@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.RecipeGenerator;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
@@ -29,53 +30,65 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
     @Override
-    public void generate(RecipeExporter exporter) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRON_STICK, 4)
-                .pattern("I")
-                .pattern("I")
-                .input('I', Items.IRON_INGOT)
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
-                .offerTo(exporter);
+    protected RecipeGenerator getRecipeGenerator(RegistryWrapper.WrapperLookup wrapperLookup, RecipeExporter recipeExporter) {
+        return new RecipeGenerator(wrapperLookup, recipeExporter) {
+            @Override
+            public void generate() {
+                createShaped(RecipeCategory.MISC, ModItems.IRON_STICK, 4)
+                        .pattern("I")
+                        .pattern("I")
+                        .input('I', Items.IRON_INGOT)
+                        .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                        .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.WOOD_HAMMER)
-                .pattern("MMM")
-                .pattern("MMM")
-                .pattern(" S ")
-                .input('S', ModItems.IRON_STICK)
-                .input('M', ItemTags.PLANKS)
-                .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STONE_HAMMER)
-                .pattern("MMM")
-                .pattern("MMM")
-                .pattern(" S ")
-                .input('S', ModItems.IRON_STICK)
-                .input('M', ItemTags.STONE_CRAFTING_MATERIALS)
-                .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.IRON_HAMMER)
-                .pattern("MMM")
-                .pattern("MMM")
-                .pattern(" S ")
-                .input('S', ModItems.IRON_STICK)
-                .input('M', Items.IRON_INGOT)
-                .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GOLD_HAMMER)
-                .pattern("MMM")
-                .pattern("MMM")
-                .pattern(" S ")
-                .input('S', ModItems.IRON_STICK)
-                .input('M', Items.GOLD_INGOT)
-                .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
-                .offerTo(exporter);
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.DIAMOND_HAMMER)
-                .pattern("MMM")
-                .pattern("MMM")
-                .pattern(" S ")
-                .input('S', ModItems.IRON_STICK)
-                .input('M', Items.DIAMOND)
-                .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
-                .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.WOOD_HAMMER)
+                        .pattern("MMM")
+                        .pattern("MMM")
+                        .pattern(" S ")
+                        .input('S', ModItems.IRON_STICK)
+                        .input('M', ItemTags.PLANKS)
+                        .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.STONE_HAMMER)
+                        .pattern("MMM")
+                        .pattern("MMM")
+                        .pattern(" S ")
+                        .input('S', ModItems.IRON_STICK)
+                        .input('M', ItemTags.STONE_CRAFTING_MATERIALS)
+                        .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.IRON_HAMMER)
+                        .pattern("MMM")
+                        .pattern("MMM")
+                        .pattern(" S ")
+                        .input('S', ModItems.IRON_STICK)
+                        .input('M', Items.IRON_INGOT)
+                        .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.GOLD_HAMMER)
+                        .pattern("MMM")
+                        .pattern("MMM")
+                        .pattern(" S ")
+                        .input('S', ModItems.IRON_STICK)
+                        .input('M', Items.GOLD_INGOT)
+                        .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.TOOLS, ModItems.DIAMOND_HAMMER)
+                        .pattern("MMM")
+                        .pattern("MMM")
+                        .pattern(" S ")
+                        .input('S', ModItems.IRON_STICK)
+                        .input('M', Items.DIAMOND)
+                        .criterion(hasItem(ModItems.IRON_STICK), conditionsFromItem(ModItems.IRON_STICK))
+                        .offerTo(exporter);
+            }
+        };
+    }
+
+
+
+    @Override
+    public String getName() {
+        return "HammerMod Recipes";
     }
 }
