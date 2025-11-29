@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "description": {
+      "translate": "advancement.hammer_mod.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "hammer_mod:diamond_hammer"
+    },
+    "title": {
+      "translate": "advancement.hammer_mod.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

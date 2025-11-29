@@ -1,0 +1,17 @@
+/give Player620 hammer_mod:iron_stick
+/give Player620 hammer_mod:wood_hammer
+/enchant @a minecraft:silk_touch
+/enchant @a minecraft:silk_touch 1
+/enchant @a minecraft:fortune 3
+/enchant @a minecraft:silk_touch 1
+/enchant @a minecraft:fortune 3
+/effect give @a minecraft:night_vision infinite
+/enchant @a minecraft:efficiency 5
+/advancement grant @a everything
+/tp ~ ~60 ~
+/advancement grant @a only hammer_mod:recipes/misc/iron_stick
+/give @a hammer_mod:iron_stick
+/effect give @a minecraft:night_vision
+/effect give @a minecraft:night_vision infinite
+/effect give @a minecraft:night_vision
+/effect give @a minecraft:night_vision infinite

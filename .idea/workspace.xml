@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4acf09f-948d-4ac2-9951-dd1fdae38558" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/HammerModClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/datagen/ModAdvancementProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/mixin/MouseMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/HammerMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/HammerModeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/ModAchievements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/ModDataComponentTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/ModTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/NetworkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/OverlayRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/0aa56e0778dbe98a899438b1b3334dd980ae8e4a" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/0aa56e0778dbe98a899438b1b3334dd980ae8e4a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/4fb5416645c125c59ddb7cba564ee582a77a234d" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/4fb5416645c125c59ddb7cba564ee582a77a234d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/8dce0c8941cba308e4516b17a62bedcd1b8a203c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/8dce0c8941cba308e4516b17a62bedcd1b8a203c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/hammer_mod/advancement/recipes/misc/iron_stick.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/hammer_mod/advancement/recipes/tools/diamond_hammer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/hammer_mod/advancement/recipes/tools/gold_hammer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/hammer_mod/advancement/recipes/tools/iron_hammer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/hammer_mod/advancement/recipes/tools/stone_hammer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/hammer_mod/advancement/recipes/tools/wood_hammer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/HammerMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/HammerMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/HammerModDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/HammerModDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/datagen/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/datagen/ModItemTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/item/custom/HammerItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/item/custom/HammerItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/mixin/ExampleMixin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/utill/HammerUsageEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/trivait/hammer_mod/util/HammerUsageEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hammer_mod/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hammer_mod/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hammer_mod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hammer_mod/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/hammer_mod/lang/ru_ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/hammer_mod/lang/ru_ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hammer_mod.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hammer_mod.mixins.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HammerMod" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HammerMod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HammerMod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HammerMod" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="fabric" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TRIVAIT-MODS&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TRIVAIT-MODS/HammerMod.git&quot;,
+    &quot;accountId&quot;: &quot;162c6790-9935-4f0f-b65b-a10fac1a7cfc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2vXmpxSCGHPJ8ahaJZuFMCVJKSC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Data Generation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HammerMod [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HammerMod [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HammerMod [runDatagen].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my_mods/CosmicJumpMod&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\java\org\trivait\hammer_mod\datagen" />
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\java\org\trivait\hammer_mod\util" />
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\java\org\trivait" />
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\java\org\trivait\hammer_mod\utill" />
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\resources\data\hammer_mod\recipe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\resources\assets\hammer_mod" />
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\resources\assets\hammer_mod\textures\gui" />
+      <recent name="D:\my_mods\HammerMod\HammerMod\src\main\generated\data\hammer_mod\advancement" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.HammerMod [build]">
+    <configuration name="HammerMod [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HammerMod [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HammerMod [runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runDatagen" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.HammerMod [build]" />
+        <item itemvalue="Gradle.HammerMod [runClient]" />
+        <item itemvalue="Gradle.HammerMod [runDatagen]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4acf09f-948d-4ac2-9951-dd1fdae38558" name="Changes" comment="" />
+      <created>1744299979597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744299979597</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,101 @@
+{
+  "parent": "hammer_mod:netherite_hammer",
+  "criteria": {
+    "diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hammer_mod:diamond_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hammer_mod:gold_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "iron": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hammer_mod:iron_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "netherite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hammer_mod:netherite_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hammer_mod:stone_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hammer_mod:wood_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "description": {
+      "translate": "advancement.hammer_mod.all_hammers.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "advancement.hammer_mod.all_hammers.title"
+    }
+  },
+  "requirements": [
+    [
+      "wood"
+    ],
+    [
+      "stone"
+    ],
+    [
+      "iron"
+    ],
+    [
+      "gold"
+    ],
+    [
+      "diamond"
+    ],
+    [
+      "netherite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

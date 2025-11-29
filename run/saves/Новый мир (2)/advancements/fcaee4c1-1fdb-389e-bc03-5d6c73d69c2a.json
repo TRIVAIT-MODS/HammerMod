@@ -1,0 +1,332 @@
+{
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:recipes/tools/stone_hammer": {
+    "criteria": {
+      "has_iron_stick": "2025-11-03 13:22:39 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:wood_hammer": {
+    "criteria": {
+      "has_item": "2025-11-03 13:22:33 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:diamond_hammer": {
+    "criteria": {
+      "has_item": "2025-11-03 13:22:29 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:recipes/tools/diamond_hammer": {
+    "criteria": {
+      "has_iron_stick": "2025-11-03 13:22:39 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-11-03 13:23:09 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-11-03 13:23:09 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:gold_hammer": {
+    "criteria": {
+      "has_item": "2025-11-03 13:22:31 +0400"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:netherite_hammer": {
+    "criteria": {
+      "has_item": "2025-11-03 13:22:20 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:iron_stick": {
+    "criteria": {
+      "has_item": "2025-11-03 13:22:39 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:recipes/tools/gold_hammer": {
+    "criteria": {
+      "has_iron_stick": "2025-11-03 13:22:39 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:all_hammers": {
+    "criteria": {
+      "gold": "2025-11-03 13:22:31 +0400",
+      "diamond": "2025-11-03 13:22:29 +0400",
+      "iron": "2025-11-03 13:22:30 +0400",
+      "wood": "2025-11-03 13:22:33 +0400",
+      "netherite": "2025-11-03 13:22:20 +0400",
+      "stone": "2025-11-03 13:22:32 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:iron_hammer": {
+    "criteria": {
+      "has_item": "2025-11-03 13:22:30 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-03 13:21:48 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-11-03 13:23:09 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:root": {
+    "criteria": {
+      "tick": "2025-11-03 13:21:48 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:recipes/tools/iron_hammer": {
+    "criteria": {
+      "has_iron_stick": "2025-11-03 13:22:39 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-11-03 13:21:55 +0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-11-03 13:23:07 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-11-03 13:22:57 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:stone_hammer": {
+    "criteria": {
+      "has_item": "2025-11-03 13:22:32 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-11-03 13:23:09 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-11-03 13:23:16 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:recipes/tools/wood_hammer": {
+    "criteria": {
+      "has_iron_stick": "2025-11-03 13:22:39 +0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}

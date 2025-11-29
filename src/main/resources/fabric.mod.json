@@ -18,6 +18,9 @@
 		"main": [
 			"org.trivait.hammer_mod.HammerMod"
 		],
+		"client": [
+			"org.trivait.hammer_mod.HammerModClient"
+		],
 		"fabric-datagen": [
 			"org.trivait.hammer_mod.HammerModDataGenerator"
 		]

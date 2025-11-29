@@ -2,10 +2,10 @@ package org.trivait.hammer_mod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import org.trivait.hammer_mod.item.ModItems;
+import org.trivait.hammer_mod.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -32,6 +32,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.DIAMOND_HAMMER)
                 .add(ModItems.NETHERITE_HAMMER);
         getOrCreateTagBuilder(ItemTags.MINING_LOOT_ENCHANTABLE)
+                .add(ModItems.WOOD_HAMMER)
+                .add(ModItems.STONE_HAMMER)
+                .add(ModItems.IRON_HAMMER)
+                .add(ModItems.GOLD_HAMMER)
+                .add(ModItems.DIAMOND_HAMMER)
+                .add(ModItems.NETHERITE_HAMMER);
+        getOrCreateTagBuilder(ModTags.Items.HAMMERS)
                 .add(ModItems.WOOD_HAMMER)
                 .add(ModItems.STONE_HAMMER)
                 .add(ModItems.IRON_HAMMER)

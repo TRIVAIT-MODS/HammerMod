@@ -1,0 +1,36 @@
+{
+  "parent": "hammer_mod:diamond_hammer",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hammer_mod:netherite_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "description": {
+      "translate": "advancement.hammer_mod.netherite_hammer.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "hammer_mod:netherite_hammer"
+    },
+    "title": {
+      "translate": "advancement.hammer_mod.netherite_hammer.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

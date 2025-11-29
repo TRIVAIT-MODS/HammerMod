@@ -2,6 +2,7 @@ package org.trivait.hammer_mod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import org.trivait.hammer_mod.datagen.ModAdvancementProvider;
 import org.trivait.hammer_mod.datagen.ModItemTagProvider;
 import org.trivait.hammer_mod.datagen.ModModelProvider;
 import org.trivait.hammer_mod.datagen.ModRecipeProvider;
@@ -14,5 +15,6 @@ public class HammerModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
+		pack.addProvider(ModAdvancementProvider::new);
 	}
 }

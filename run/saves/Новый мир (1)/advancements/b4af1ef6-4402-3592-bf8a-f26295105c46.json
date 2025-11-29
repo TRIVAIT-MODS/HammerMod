@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-03 11:06:59 +0400"
+    },
+    "done": true
+  },
+  "hammer_mod:root": {
+    "criteria": {
+      "tick": "2025-11-03 11:06:59 +0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-11-03 11:07:00 +0400"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}

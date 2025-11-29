@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "hammer_mod",
+	"version": "2.0.0",
+	"name": "HammerMod",
+	"description": "This mod adds 6 new hammers that can dig 3x3 mines.",
+	"authors": [
+		"TRIVAIT"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/Trivait",
+		"sources": "https://github.com/TRIVAIT-MODS/HammerMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hammer_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.trivait.hammer_mod.HammerMod"
+		],
+		"client": [
+			"org.trivait.hammer_mod.HammerModClient"
+		],
+		"fabric-datagen": [
+			"org.trivait.hammer_mod.HammerModDataGenerator"
+		]
+	},
+	"mixins": [
+		"hammer_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

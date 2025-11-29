@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "org/trivait/hammer_mod/mixin/MouseMixin": {
+      "onMouseScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/trivait/hammer_mod/mixin/MouseMixin": {
+        "onMouseScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+      }
+    }
+  }
+}
